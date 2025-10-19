@@ -1,0 +1,69 @@
+* {
+    margin: 10px;
+    
+}
+
+
+.container {
+    width: 950px;
+    background-color: #eaeaea;
+    height: 600px;
+    padding: 10PX;
+    
+
+
+}
+
+.top-nav {
+    height: 150px;
+    background-color: #ffcc00;
+    margin : 10px 10px 10px 10px;
+    
+    
+    
+    
+}
+
+.side-nav {
+    height: 380px;
+    width: 225px;
+    background-color: #66ccff;
+    margin: 10px;
+    border: #0f0f0f 5px solid;
+    float: right;margin-top: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.main {
+    height: 400px;
+    width: 700px;
+    background-color:deeppink;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px;
+    
+}
+
+
+.sub-content {
+    height: 200px;
+    width: 210px;
+    background-color:mediumblue;
+    margin: 10px;
+    
+    
+}
+
+#advertisement {
+    height: 120px;
+    width: 660px;
+    background-color: #33cc33;
+    margin: 10px;
+   
+    
+}
+
+
