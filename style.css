@@ -1,69 +1,91 @@
-* {
-    margin: 10px;
-    
+*{
+  margin-top: 2px;
 }
 
+body {
+  
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  
+}
 
+/* Contenedor general */
 .container {
-    width: 950px;
-    background-color: #eaeaea;
-    height: 600px;
-    padding: 10PX;
-    
-
-
+  width: 950px;
+  padding: 10px;
+  background-color: #f1f0ec;
+  
+  
 }
 
+/* Seccion amarilla arriba */
 .top-nav {
-    height: 150px;
-    background-color: #ffcc00;
-    margin : 10px 10px 10px 10px;
-    
-    
-    
-    
+  height: 150px;
+  background-color: #ffcc00;
+  margin-bottom: 10px;
+  display: flex;
+  
 }
 
-.side-nav {
-    height: 380px;
-    width: 225px;
-    background-color: #66ccff;
-    margin: 10px;
-    border: #0f0f0f 5px solid;
-    float: right;margin-top: 0%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+
+.content {
+  display: flex;
+  flex-direction: row;
+  
 }
 
+/* Contenedor rosa */
 .main {
-    height: 400px;
-    width: 700px;
-    background-color:deeppink;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 10px;
-    
+  background-color: deeppink;
+  width: 700px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  /*flex-wrap: wrap;
+  justify-content: space-evenly;*/
 }
 
+/* Cuadros azules fila */
+.d {
+  display: flex;
+  /*flex-direction: row;*/
+  flex-wrap: wrap;
+  gap: 10px;
+  /*margin-bottom: 10px;*/
+}
 
 .sub-content {
-    height: 200px;
-    width: 210px;
-    background-color:mediumblue;
-    margin: 10px;
-    
-    
+  width: 220px;
+  height: 220px;
+  background-color: mediumblue;
+  color: white;
+  display: flex;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 5px;
+  
 }
 
-#advertisement {
-    height: 120px;
-    width: 660px;
-    background-color: #33cc33;
-    margin: 10px;
-   
-    
+/* Cuadro verde  */
+#Contenedor-verde {
+  width: 650px;
+  height: 100px;
+  background-color: #33cc33;
+  color: white;
+  display: flex;
+  
 }
 
-
+/* Cuadro celeste  */
+#Contenedor-celeste {
+  width: 225px;
+  height: 380px;
+  background-color: #66ccff;
+  margin-left: 10px;
+  display: flex;
+  
+  
+}
